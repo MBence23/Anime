@@ -35,7 +35,7 @@
                 <RadioButton Content="Users" Style="{StaticResource MenuButtonTheme}"/>
                 <RadioButton Content="Close" Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
-            <ContentControl Grid.Row="1" Grid.Column="1"/>
+            <ContentControl Content="{Binding CurrentView}" Grid.Row="1" Grid.Column="1"/>
         </Grid>
     </Border>
     
